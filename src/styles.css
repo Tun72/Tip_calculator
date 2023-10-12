@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(223, 156, 185, 1) 31%,
+    rgba(148, 187, 233, 1) 79%
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+.tips {
+  display: flex;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.tip {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 20px;
+  background: -webkit-linear-gradient(#489dd6, #c32285);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  background: -webkit-linear-gradient(#b72b68, #187ef3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+button {
+  padding: 3px 12px;
+  border: none;
+  margin-top: 15px;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 175, 195, 0.8352591036414566) 18%,
+    rgba(189, 93, 177, 0.7708333333333334) 71%
+  );
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
